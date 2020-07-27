@@ -60,5 +60,3 @@ failure_code_dict['category']=category_list
 with open(filepath + "\\" + jsonFileName, 'w') as jsonFile:
     jsonFile.write(json.dumps(failure_code_dict, indent=4))
 
-
-
